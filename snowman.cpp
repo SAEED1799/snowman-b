@@ -50,16 +50,16 @@ namespace ariel{
            //XU(LNR)YU
            //XD(TTT)YD
             //(BBB)
-        const array<string,option> H ={" ", "      \n _===_", " _____\n .....", "   _  \n  /_\\", "  ___  \n (_*_)"};
+        const array<string,option> H ={"", "      \n _===_", " ___ \n .....", "   _  \n  /_\\", "  ___  \n (_*_)"};
         const array<string,option> N ={"",",", ".", "_", " "};
-        const array<string,option> L ={"","." ,"o" ,"O" ,"-" };
-        const array<string,option>R ={"","." ,"o","O" ,"-" };
-        const array<string,option>XU ={""," " ,"\\" ," " ," " };
-        const array<string,option>XD ={"","<" ," " ,"/" ," " };
-        const array<string,option>YU ={""," " ,"/" ," " ," " };
-        const array<string,option>YD = {"",">" ," " ,"\\" ," " };
-        const array<string,option>T = {""," : " ,"] [" ,"> <" ,"   " };
-        const array<string,option>B = {"" , " : " ,"  \"  \"" ," __ " ,"   " };
+        const array<string,option> L ={"","." ,"o" ,"O" ,"-"};
+        const array<string,option>R ={"","." ,"o","O" ,"-"};
+        const array<string,option>XU ={""," " ,"\\" ," " ," "};
+        const array<string,option>XD ={"","<" ,"" ,"/" ," "};
+        const array<string,option>YU ={""," " ,"/" ,"" ," "};
+        const array<string,option>YD = {"",">" ," " ,"\\" ," "};
+        const array<string,option>T = {""," : " ,"] [" ,"> <" ,"   "};
+        const array<string,option>B = {"" , " : " ,"\" \"" ,"___" ,"   "};
         /* here we dvide the build for 4 parst , 
         the top that make the hat
         the up that build the head include eye`s  , nose and arms if they go up
